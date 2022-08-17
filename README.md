@@ -1,3 +1,3 @@
-# Project 3
+Fully-featured media catalog for Cornell's research group "Playful Plants"!
 
-**Submission Instructions:** Stage, commit, and push your changed files. Then complete the submission form.
+Use Docker to open in container and then Run!

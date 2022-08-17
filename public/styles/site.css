@@ -1,0 +1,419 @@
+.hidden {
+  display: none;
+}
+
+.align-right {
+  display: flex;
+  width: 25%;
+  justify-content: flex-end;
+
+}
+
+.feedback {
+  color: #ad1f0d;
+  margin-bottom: 5px;
+  font-family: monospace;
+  font-size: medium;
+}
+
+
+table {
+
+  border-top: 4px solid #1c9737;
+  border-spacing: 0;
+
+
+}
+
+.tableclasshome table {
+
+  border-top: 4px solid #000000;
+  border-spacing: 0;
+
+
+}
+
+table tr {
+  background-color: #ffffff;
+}
+
+table tr:nth-child(even) {
+  background-color: #a9d3a9;
+}
+
+.tableclass table td {
+  font-weight: normal;
+  text-align: center;
+  padding-right: 14px;
+  padding: 8px;
+  font-family: monospace;
+
+
+}
+
+.tableclasshome table td {
+  font-weight: normal;
+  text-align: center;
+  padding: 30px;
+  font-family: monospace;
+  padding-right: 150px;
+  text-decoration: underline;
+  font-size: 15pt;
+}
+
+.tableclass table td:last-child {
+  padding-right: 0;
+}
+
+table th {
+  font-weight: bold;
+  text-align: center;
+  font-family: monospace;
+  padding: 8px;
+  padding-right: 14px;
+  top: 0px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #000000;
+
+
+}
+
+.tableclasshome table th {
+  font-weight: bold;
+  text-align: center;
+  font-family: monospace;
+  padding: 8px;
+  padding-right: 14px;
+  top: 0px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #000000;
+  font-size: 15pt;
+
+
+}
+
+
+
+h2 {
+  font-family: monospace;
+}
+
+p {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: large;
+}
+
+.select_choices {
+  display: flex;
+  font-family: monospace;
+  flex-direction: column;
+}
+
+.label-input-admin {
+  font-family: monospace;
+  padding: 3px;
+}
+
+.label-input-edit {
+  font-family: monospace;
+  padding: 3px;
+}
+
+.filter {
+  font-family: monospace;
+  flex-direction: column;
+  display: flex;
+}
+
+h1 {
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.filterbutton {
+  justify-content: end;
+  display: flex;
+}
+
+.filtertable {
+  display: flex;
+  flex-direction: row;
+}
+
+.filtertablehome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.filterform {
+  display: flex;
+  width: 10%;
+  height: 25%;
+  border: 4px solid #000000;
+  padding: 2px;
+
+}
+
+.filterformhome {
+  display: flex;
+  width: 10%;
+  height: 25%;
+  border: 4px solid #000000;
+  padding: 2px;
+
+}
+
+.tableclass {
+  display: flex;
+  width: 90%;
+}
+
+.tableclasshome {
+  display: flex;
+  width: 90%;
+}
+
+.addform {
+
+  border-top: 4px solid #1c9737;
+}
+
+.tableclass p {
+  display: flex;
+  flex-direction: row;
+}
+
+@media print {
+
+  .filterform,
+  .addform,
+  h1 {
+    display: none;
+  }
+
+}
+
+.success p {
+  color: #064113;
+}
+
+.not-found p {
+  text-align: center;
+}
+
+.return p {
+  text-align: center;
+
+}
+
+.return a {
+  color: #1c9737;
+}
+
+
+header {
+  color: white;
+  background-color: #5c975c;
+  padding: 20px 10px 40px 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+
+}
+
+nav li {
+  margin: 10px;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 15pt;
+  color: white;
+  list-style-type: none;
+}
+
+#logout {
+  float: right;
+  list-style-type: none;
+}
+
+#login {
+  float: right;
+  list-style-type: none;
+}
+
+header a {
+  font-weight: bold;
+  color: white;
+}
+
+
+
+
+.consumerimg one img {
+  height: 750px;
+  width: 750px;
+}
+
+.consumerimg img {
+  width: 750px;
+  height: 520px;
+}
+
+.plant-title a {
+  font-family: monospace;
+  font-size: 15pt;
+  color: #000000;
+  text-decoration: none;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+}
+
+.detailsimg img {
+  margin-left: 40px;
+  width: 750px;
+  height: 750px;
+
+}
+
+.detailsimgone img {
+  margin-left: 40px;
+  width: 750px;
+  height: 520px;
+
+}
+
+.details h2 {
+  font-family: monospace;
+  font-size: 20pt;
+}
+
+.infodetails h3 {
+  font-family: monospace;
+  font-size: 15pt;
+  font-weight: normal;
+
+
+}
+
+.infodetails p {
+  font-family: monospace;
+  font-size: 15pt;
+  font-weight: normal;
+}
+
+.plantstitle h1 a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 40pt;
+
+}
+
+.login h2 {
+  font-family: monospace;
+  font-size: 20pt;
+}
+
+.label-input label {
+  font-family: monospace;
+  font-size: 15pt;
+}
+
+.icons img {
+  height: 20px;
+  width: 20px;
+}
+
+.citeicon {
+  font-size: 6pt;
+}
+
+@media (max-width: 600px) {
+
+  .tableclasshome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .tableclasshome table td {
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    padding-right: 10px;
+    text-decoration: underline;
+    font-size: 10pt;
+  }
+
+  .filtertablehome {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .filterformhome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+    border: 4px solid #000000;
+    padding: 2px;
+
+  }
+
+  .tableclasshome table th {
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+    padding: 4px;
+    padding-right: 14px;
+    top: 0px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #000000;
+    font-size: 10pt;
+
+
+  }
+
+  .plant-title a {
+    font-family: monospace;
+    font-size: 10pt;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .consumerimg one img {
+    height: 450px;
+    width: 450px;
+  }
+
+  .consumerimg img {
+    width: 450px;
+    height: 220px;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detailsimg img {
+    width: 450px;
+    height: 450px;
+
+  }
+
+  .detailsimgone img {
+    width: 450px;
+    height: 220px;
+
+  }
+
+
+}
